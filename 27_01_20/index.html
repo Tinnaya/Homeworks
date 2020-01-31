@@ -1,0 +1,121 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<title>homework 27_01_20</title>
+</head>
+
+<body>
+	<!-- <p>Ex.1</p> -->
+	<script type="text/javascript">
+		alert('Ex.1');
+		var a = Math.floor(Math.random() * 10),
+			b = a * 3,
+			c = a + b;
+		alert(a);
+		alert(b);
+		alert(c);
+	</script>
+	<!-- <p>Ex.2</p> -->
+	<script type="text/javascript">
+		alert('Ex.2');
+		var firstName = prompt('What\'s your firstname?');
+		var lastName = prompt('What\'s your lastname?');
+		alert(`What's up ${firstName.toUpperCase()} ${lastName.toUpperCase()}?`);		
+	</script>
+	<!-- <p>Ex.3</p> -->
+	<script type="text/javascript">
+		alert('Ex.3');
+		var x = prompt('Insert the first number x');
+		var y = prompt('Insert the second number y');
+		alert( x * y);
+		alert( x / y);
+		alert(x - y);
+		alert(+x + (+y));
+
+	</script>
+	<!-- <p>Ex.4</p> -->
+	<script type="text/javascript">
+		alert('Ex.4');
+		var distanceToTheMoon = 384000;
+		var SpacecraftSpeed = prompt('Enter the speed of your spaceship in kilometers per hour');
+		alert('in' +' ' +(distanceToTheMoon/SpacecraftSpeed) + 'hours');
+		
+	</script>
+	<!-- <p>Ex.5</p> -->
+	<script type="text/javascript">
+		alert('Ex.5');
+		var number = prompt('Please enter an integer');
+		alert(Boolean(number));
+		
+	</script>
+	<!-- <p>Ex.6</p> -->
+	<script type="text/javascript">
+		alert('Ex.6');
+		var randomType = prompt('Enter text or number');
+		alert(!Number.isNaN(+randomType));		
+	</script>
+	<!-- <p>Ex.7</p> -->
+	<script type="text/javascript">
+		alert('Ex.7');
+		
+		var b = prompt('enter bytes'),
+			kb = +b / 1024,
+			mb = kb / 1024,
+			gb = mb / 1024;
+		alert(kb +'Кб' + ' , ' + mb +'Мв' + ' , ' + gb + 'Гб'); 
+
+		var kb = prompt('enter kilobytes'),
+			b = +kb * 1024,
+			mb = kb / 1024,
+			gb = mb / 1024;
+		alert(b +'байт' + ' , ' + mb +'Мв' + ' , ' + gb + 'Гб'); 
+
+		var mb = prompt('enter megabytes'),
+			kb = +mb * 1024,			
+			gb = + mb / 1024,
+			b = kb * 1024;			
+		alert(b +'байт' + ' , ' + kb +'Кв' + ' , ' + gb + 'Гб');
+
+		var gb = prompt('enter gygabytes'),
+			mb = + gb * 1024,
+			kb = mb * 1024,
+			b = kb * 1024;			
+		alert(b +'байт' + ' , ' + kb +'Кв' + ' , ' + mb + 'Мб');
+	</script>
+
+ <!-- <p>Ex.8</p> -->
+	<script type="text/javascript">
+		alert('Ex.8');
+		
+	</script>
+	<!-- <p>Ex.9</p> -->
+	<script type="text/javascript">
+		alert('Ex.9');
+		var firstColumn = prompt('Enter the height of the first column'),
+			secondColumn = prompt('Enter the height of the second column'),
+			thirdColumn = prompt('Enter the height of the third column')
+			firstNumber = parseInt(firstColumn , 10),
+			secondNumber = parseInt(secondColumn , 10),
+			thirdNumber = parseInt(thirdColumn , 10);
+			max_value = Math.max(firstNumber , secondNumber , thirdNumber);
+		alert('max value=' + max_value + 'px');
+		
+	</script>
+	
+	<!-- <p>Ex.10</p> -->
+	<script type="text/javascript">
+		alert('Ex.10');
+		var x = Math.floor(Math.random() * 100),
+			y = prompt('Enter nuber' , 10)
+			d = x < y;
+		alert('x < y = '+ d + ' , ' + 'x =' + x + ' , ' + 'y =' + y)
+		
+	</script>
+
+
+</body>
+</html>

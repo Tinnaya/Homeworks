@@ -1,0 +1,56 @@
+html{
+	font-size: 10px;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1170px;
+	margin: 0 auto;
+}
+button{
+	border: none;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+
+}
+.paladin{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 23%;
+	height: 50rem;
+	margin-right: 3%;
+}
+.necromancer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 34%;
+	height: 50rem;
+}
+#auto_fight {
+	background-color: green;
+	width: 10rem;
+	height:10rem;
+	border-radius: 50%;
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+	width: 40%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+ul{
+	background-color: lavender;
+	border: 1px ridge maroon;
+	width: 100%;
+	font-size: 2rem;
+	height: 50rem;
+	overflow: auto;
+}
